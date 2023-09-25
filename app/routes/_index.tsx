@@ -6,8 +6,8 @@ import '../styles.css';
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "portfolio - aaron patel" },
-    { name: "description", content: "welcome to my portfolio!" },
+    { title: "Portfolio - Aaron Patel" },
+    { name: "description", content: "Welcome to my portfolio!" },
   ];
 };
 

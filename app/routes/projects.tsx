@@ -5,7 +5,7 @@ import Video from '../components/Video';
 
 export const meta: MetaFunction = () => {
   return [
-    { title: "Projects - Aaron Patel" },
+    { title: "My Projects" },
     { name: "description", content: "Details about my project experiences." },
   ];
 };
