@@ -3,7 +3,7 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <div className="bg-primary text-white py-36" style={{backgroundColor: 'transparent'}}>
-      <div className="container mx-auto text-center">
+      <div className="container mx-auto text-center text-gray">
         <h1 className="text-4xl font-bold mb-4">Hey👋, I'm Aaron Patel.</h1>
         <h1 className="text-xl font-bold mb-4">Welcome to my portfolio!</h1>
         <p className="text-lg mb-8">Explore my projects and learn more about me.</p>

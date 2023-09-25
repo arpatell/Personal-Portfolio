@@ -18,7 +18,7 @@ function Projects() {
 
   return (
     <div className="p-8">
-      <h1 className="text-3xl font-semibold mb-4">Featured Projects</h1>
+      <h1 className="text-3xl font-semibold mb-4 text-gray">Featured Projects</h1>
       {projects.length === 0 ? (
         <div
         className="inline-block h-8 w-8 animate-spin rounded-full border-4 border-solid border-current border-r-transparent align-[-0.125em] text-primary motion-reduce:animate-[spin_1.5s_linear_infinite]"

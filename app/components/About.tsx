@@ -2,8 +2,8 @@ import React from 'react';
 const About = () => {
   return (
     <div className="p-8">
-        <h2 className="text-3xl font-semibold mb-4">About Me</h2>
-        <p className="font-semibold">
+        <h2 className="text-3xl font-semibold mb-4 text-gray">About Me</h2>
+        <p className="font-semibold text-gray">
         Hi! My name is Aaron Patel and I am currently a sophomore at the University
         of North Carolina at Chapel Hill. I am pursuing a B.S. in Computer Science 
         and a minor in Data Science. I have been interested in computers since a
@@ -19,10 +19,10 @@ const About = () => {
                 <img src="media/img.jpg" className="w-1/2" />
             </div>
         </div> 
-        <div className="flex justify-center w-1000 py-2 gap-2">
+        <div className="flex justify-center w-1000 py-2 gap-2 text-gray">
             <a href="#item1" className="btn btn-xs">1</a> 
         </div>
-        <p className="prose text-center font-semibold">
+        <p className="prose text-center font-semibold text-gray">
           Here are some cool pictures of me!
         </p>
     </div>
