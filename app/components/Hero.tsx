@@ -2,7 +2,7 @@ import React from 'react';
 // py-44
 const HeroSection = () => {
   return (
-    <div className="bg-primary text-white py-40" style={{backgroundColor: 'transparent'}}>
+    <div className="bg-primary text-white py-34" style={{backgroundColor: 'transparent'}}>
       <div className="container mx-auto text-center">
         <h1 className="text-4xl font-bold mb-4">Hey👋, I'm Aaron Patel.</h1>
         <h1 className="text-xl font-bold mb-4">Welcome to my portfolio!</h1>
